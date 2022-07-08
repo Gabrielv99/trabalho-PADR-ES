@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalhoPrincipal {
+    width: 100%;
+    background-color: brown;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+} 
+
+
+.cabecalhoPrincipal-titulo {
+    align-self: center;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7px;
+}
+
+.estadios {
+    border: 1px solid black;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+main {
+    margin: 20px;
+}
